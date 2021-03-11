@@ -1,0 +1,97 @@
+
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*CABECALHO*/
+
+h1, p{
+    text-align: center;
+}
+
+h1{
+    margin: 150px 630px 150px 630px;
+    padding: 5px;
+    border: solid 1.5px;
+    border-radius: 20px;
+    background-color: #4682B4;
+    color: #DAA520;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+body{
+    background-image: url("fundo.jpg");
+    background-size: cover;
+ 
+}
+
+/*GALERIA*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: solid 1px #DAA520;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    background-color:#4682B4;
+}
+
+.card-image{
+    height: 200px;
+    background-size: cover;
+    margin: 0 0 5px 0;
+}
+
+.card-1 .card-image{
+    background-image: url("garen.jpg");
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px #DAA520;
+}
+
+.card-2 .card-image{
+    background-image: url("gnar.jpg");
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px #DAA520;
+}
+
+.card-3 .card-image{
+    background-image: url("teemo.jpg");
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px #DAA520;
+}
+
+.card-4 .card-image{
+    background-image: url("amumu.jpg");
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px #DAA520;
+}
+
+.btn{
+    background-color: #4682B4;
+    color: #DAA520;
+    border-color: #DAA520;
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+.btn:hover{   
+    box-shadow: 2px 2px 2px black;
+    border-color: white;
+    color: white;
+}
+
