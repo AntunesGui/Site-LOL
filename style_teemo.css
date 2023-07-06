@@ -1,0 +1,75 @@
+/* RESET*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* PLANO DE FUNDO */
+body{
+  background-image: url(imgs/bg-teemo.jpg);
+  backdrop-filter: blur(4px); 
+}
+
+/* FLEXBOX PARA ORGANIZAÇÃO DOS ELEMENTOS */
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  width: 99.8%;
+  height: 102.5%;
+  align-items: center;
+}
+
+/* ESTILIZAÇÃO DO TÍTULO */
+.title{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-family: 'BeaufortforLOL-bold';
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  text-shadow: 0px 5px 3px black;
+}
+
+span{
+  font-size: 150px;
+  line-height: 120px;
+}
+
+/* ESTILIZAÇÃO DO CONTEÚDO CENTRAL */
+.content{
+  display: inline-block;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: solid 1.5px #DAA520;
+  border-radius: 20px;
+  background-color: rgb(20, 20, 37, 0.7);
+  font-size: 30px;
+  color: white;
+  width: 800px;
+  padding: 20px 20px;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO 'VOLTAR' */
+button{
+  margin-top: 220px;
+  margin-bottom: 8px;
+  padding: 5px 5px;
+  font-size: 40px;
+  font-family: 'BeaufortforLOL-bold';
+  border: solid 1.5px #DAA520;
+  border-radius: 20px;
+  background-color: rgb(20, 20, 37, 0.7);
+  transition: .3s;
+}
+
+ a{
+  text-decoration: none;
+  color: #DAA520;
+ }
+
+ button:hover{
+  box-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black;
+  border-color: white;
+ }
